@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Sentence Generator Generator</title>
+</head>
+
+<body>
+<h1>Python script to generate sentences based on 3-grams from input text</h1>
+
+<p>
+Someone once gave me this as an engineering puzzle (circa 2007?). I don't remember
+the specifics, but it's actually come in handy a couple of times over
+the years. Basically, it puts a bunch of 3-grams into a nested python
+dictionary and then randomly generates sentences based on input. The
+sample input provided was a copy of the tao_te_ching teachings.
+This python script takes arguments in the form:
+<pre>python mkgen.py &lt;filename&gt;</pre>
+</p>
+<p>
+<a href="mkgen.pys">mkgen.py</a> - python script
+<br/>
+<a href="tao_te_ching.txt">tao_te_ching.txt</a> - source file
+</p>
+<p>
+Example:
+<div>
+  <iframe id="mkgen" src="mkgen_example.php" width="600" height="80" frameborder=0></iframe>
+<br/>
+<input type="button" value="more examples!" onclick="var i = document.getElementById('mkgen'); i.src=i.src"/>
+</div>
+</p>
+
+</body>
+</html>
